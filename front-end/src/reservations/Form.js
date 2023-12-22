@@ -45,7 +45,7 @@
 //           </div>
 //           <div className="pb-1">
 //             <input
-//               type="number"
+//               type="text"
 //               name="mobile_number"
 //               className="form-control"
 //               id="mobile_number"
@@ -156,7 +156,7 @@ export default function Form({
           <div className="pb-1">
             <label htmlFor="mobile_number">Mobile Number</label>
             <input
-              type="number"
+              type="text"
               name="mobile_number"
               className="form-control"
               id="mobile_number"

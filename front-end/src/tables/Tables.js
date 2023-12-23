@@ -44,28 +44,34 @@ export default function Tables() {
       </div>
       <ErrorAlert error={tableError} />
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="table_name"
-          className="form-control mb-1"
-          id="table_name"
-          placeholder="Table"
-          value={tableForm.table_name}
-          onChange={handleFormChange}
-          minLength={2}
-          required
-        />
-        <input
-          type="number"
-          name="capacity"
-          className="form-control mb-1"
-          id="capacity"
-          placeholder="Number of guests"
-          value={tableForm.capacity}
-          onChange={handleFormChange}
-          min="1"
-          required
-        />
+        <div className="form-group">
+          <label htmlFor="table_name">Table Name</label>
+          <input
+            type="text"
+            name="table_name"
+            className="form-control"
+            id="table_name"
+            placeholder="Table"
+            value={tableForm.table_name}
+            onChange={handleFormChange}
+            minLength={2}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="capacity">Capacity</label>
+          <input
+            type="number"
+            name="capacity"
+            className="form-control"
+            id="capacity"
+            placeholder="Number of guests"
+            value={tableForm.capacity}
+            onChange={handleFormChange}
+            min="1"
+            required
+          />
+        </div>
         <div className="d-flex justify-content-center">
           <button type="submit" className="btn btn-primary mr-1">
             Submit

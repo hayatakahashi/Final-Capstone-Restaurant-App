@@ -39,6 +39,7 @@ export default function Search() {
       <ErrorAlert error={error} />
       <div className="pt-3 pb-3">
         <form className="form-group" onSubmit={searchHandler}>
+          <label htmlFor="mobile_number">Enter Phone Number</label>
           <input
             name="mobile_number"
             id="mobile_number"

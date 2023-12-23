@@ -1,14 +1,18 @@
 body {
-  background-color: #E6E6FA;
+  background-color: #edf4f1;
   color: #090909;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow to body */
 }
 
 h1 {
   padding-top: 1rem;
+  color: #2f4841;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to h1 */
 }
 
 legend {
   padding-top: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to legend */
 }
 
 th,
@@ -17,8 +21,9 @@ td {
 }
 
 .side-bar {
-  background-color: #003049;
+  background-color: #114e3b;
   min-width: 200px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); /* Add shadow to side-bar */
 }
 
 .navbar-brand {
@@ -31,8 +36,13 @@ td {
 }
 
 .btn:not(:disabled):not(.disabled) {
-  background-color: #d6faff;
+  background-color: #7aa591;
   color: black;
   border: none;
   outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to button */
+}
+
+.btn:hover {
+  background-color: #c5e4fa; /* Adjust hover color */
 }

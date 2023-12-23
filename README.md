@@ -17,7 +17,7 @@ The Restaurant Reservation App is a streamlined solution for restaurant managers
 Dashboard View
   <br>
    
-<img width="1470" alt="reservation-dashboard" src= >
+<img width="1470" alt="reservation-dashboard" src="images/screenshot/Screenshot 2023-12-22 at 9.06.23 PM.png" >
   <br>
 <hr>
   
